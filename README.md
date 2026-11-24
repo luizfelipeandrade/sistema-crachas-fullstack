@@ -4,9 +4,20 @@
 
 ---
 
+## 🌐 Demonstração ao Vivo / Live Demo
+
+- **Front-end (Vercel):** https://sistema-crachas-fullstack.vercel.app
+- **Back-end REST API (Render):** https://sistema-crachas-api.onrender.com/api/pessoas
+
+> **Nota de Infraestrutura / Infrastructure Note:**  
+> 🇧🇷 _Como a API Java está hospedada no plano gratuito do Render (container Docker), a primeira requisição após um período de inatividade pode levar cerca de 20 a 30 segundos para inicializar o servidor (Cold Start). Após esse primeiro carregamento, todas as operações CRUD funcionam normalmente._  
+> 🇺🇸 _Since the Java API is hosted on Render's free tier (Docker container), the first request after an idle period may take around 20–30 seconds to wake up the server (Cold Start). Once active, all CRUD operations run smoothly._
+
+---
+
 ## 🇧🇷 Português
 
-Aplicação Full-Stack para cadastro de alunos e professores e emissão dinâmica de crachás institucionais com foto, QR Code vCard e impressão individual.
+Aplicação Full-Stack para cadastro de alunos e professores e emissão dinâmica de crachás institucionais com foto, QR Code e impressão individual.
 
 O projeto nasceu como uma aplicação desktop em Java (Swing + MVC/DAO) e evoluiu para uma arquitetura web moderna desacoplada, mantendo o núcleo orientado a objetos em Java puro servindo uma API REST nativa conectada a um banco de dados PostgreSQL na nuvem.
 
