@@ -1,0 +1,14 @@
+# Java / Eclipse / NetBeans
+build/
+out/
+bin/
+*.class
+.classpath
+.project
+.settings/
+
+# Node / React / Vite
+node_modules/
+dist/
+.env
+.env.local
